@@ -1,0 +1,23 @@
+1) How would Alice send the message? 	
+
+	Alice would encrypt the message using a piece of software and send it using
+	a messaging platform. She would use the RSA encryption formula:
+	E = M_1^e mod N
+	where E is the encryped message, e and N are based off Bob's public key, Pu(B)
+	Alice would encrypt her message using this formula and send it
+
+2) How would Bob decipher the message?
+	
+	Bob would recieve the message and use the RSA decryption formula:
+	D = M_3^d mod N
+	where D is the decrypted message, d and N are from Bob's private key, Pr(B)
+
+3)How would Alice send the message?
+	
+	She wpould encrypt the file using the above encryption formula and send it as normal
+
+4)What would Bob do to verify that the message indeed came from Alice?
+
+	If Bob can decrypt the message using Alice's private key (Pr(A)), the message
+	came from her.
+	
